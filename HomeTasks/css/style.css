@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    /* overflow: auto; */
+    /* position: fixed; 
+    width: 100%; */
+     
+}
+
+.top{
+    overflow: auto;
+    background-color: #eeeded;
+    
+    padding: 15px 30px;
+    
+}
+
+.top a:hover{
+    text-decoration: underline;
+}
+
+.navbar-left a:last-child{
+    text-decoration:none;
+    border:1.5px solid #0056c1;
+    border-radius: 40px;
+    color: #0056c1;
+    font-weight: bold;
+    padding: 6px 12px;
+    transition: 0.5s;
+}
+
+.navbar-left a:last-child:hover{
+    background-color: #0056c1;
+    color: #fff;
+}
+
+.navbar-left{
+
+    float: left;
+}
+
+
+
+.navbar-left a{
+    color: #00000081;
+    font-size: 15px;
+    margin-right: 20px;
+    
+}
+
+.navbar-right{
+    float: right;
+    
+}
+
+.top .navbar-right a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #00000081;
+}
+
+.navbar-right a:last-child{
+    color:black;
+    font-weight: bold;
+}
+
+.middle{
+    
+    padding: 30px 30px;
+    
+}
+
+.middle-left{
+    margin-left:11rem;
+    float:left;
+}
+
+.middle-left a{
+    margin-right: 20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+.middle-left a:first-child{
+    color: black;
+}
+
+
+
+.middle-right{
+    float:right;
+    font-size:18px;
+    
+}
+
+.middle-right a{
+    margin-left: 20px;
+    font-size: 18px;
+    color:#0056c1;
+    font-weight: bold;
+}
+
+hr{
+    margin-top:25px;
+    border:0.1px solid rgba(0, 0, 0, 0.043)
+    
+}
+
+.down{
+    padding: 15px 30px;
+    margin-top:25px;
+    
+}
+
+.down a{
+    margin-right: 20px;
+    color: black;
+    font-size: 17px;
+}
+
+.offer{
+    background-color: #eeeded;
+    padding: 5rem 30px 35rem;
+    margin-top: 4rem;
+    
+    
+}
+
+.offer h1{
+    font-size: 50px;
+    margin: 6rem 0px 3rem 6rem;
+}
+
+.foto{
+    width: 100%;
+    margin:auto
+}
+
+.box{
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    width: 31.5%;
+    float: left;
+    overflow: auto;
+    padding-bottom: 3rem;
+
+}
+
+.box h3{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+.box p{
+    color: rgba(0, 0, 0, 0.447);
+    margin-bottom: 2rem;
+    
+    
+}
+
+.box .credit{
+    margin-bottom: 3.1rem;
+}
+ 
+.box a{
+
+    color: rgb(0, 0, 0);
+    
+}
+
+.box img{ 
+    vertical-align: bottom;  
+
+    width: 100%;
+}
+
+
+.foto-header{
+    margin: 1rem 0px 1rem;
+}
+
